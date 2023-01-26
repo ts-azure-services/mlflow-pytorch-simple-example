@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: linearmod
+endpoint_name: my-endpoint
+model: azureml:linearmodel@latest
+instance_type: Standard_DS2_v2
+instance_count: 1
